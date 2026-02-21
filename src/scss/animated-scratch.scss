@@ -1,0 +1,187 @@
+
+@media only screen and (min-width: 1500px) {
+
+    // Slide-left
+  
+  
+    .slide-left {
+      position: relative;
+      animation: animate-to-left 0.5s;
+    }
+  
+    .slide-left-1 {
+      position: relative;
+      animation: animate-to-left 0.7s;
+    }
+  
+    .slide-left-2 {
+      position: relative;
+      animation: animate-to-left 0.9s;
+    }
+  
+    .slide-left-3 {
+      position: relative;
+      animation: animate-to-left 1s;
+    }
+  
+    @keyframes animate-to-left {
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+  
+      0% {
+        left: 400px;
+        top: 0px;
+      }
+    }
+  
+  
+  
+    // Slide-right
+  
+  
+    .slide-right {
+      position: relative;
+      animation: animate-to-right 0.5s;
+    }
+  
+    .slide-right-1 {
+      position: relative;
+      animation: animate-to-right 0.7s;
+    }
+  
+    .slide-right-2 {
+      position: relative;
+      animation: animate-to-right 0.9s;
+    }
+  
+    .slide-right-3 {
+      position: relative;
+      animation: animate-to-right 1s;
+    }
+  
+    @keyframes animate-to-right {
+      100% {
+        right: 0px;
+        top: 0px;
+      }
+  
+      0% {
+        right: 400px;
+        top: 0px;
+      }
+    }
+  
+  
+    // Slide-top
+  
+  
+    .slide-top {
+      position: relative;
+      animation: animate-to-top 0.5s;
+    }
+  
+    .slide-top-1 {
+      position: relative;
+      animation: animate-to-top 0.7s;
+    }
+  
+    .slide-top-2 {
+      position: relative;
+      animation: animate-to-top 0.9s;
+    }
+  
+    .slide-top-3 {
+      position: relative;
+      animation: animate-to-top 1s;
+    }
+  
+    @keyframes animate-to-top {
+      100% {
+        top: 0px;
+      }
+  
+      0% {
+        top: 400px;
+      }
+    }
+  
+  
+    // Slide-bottom
+  
+  
+    .slide-bottom {
+      position: relative;
+      animation: animate-to-bottom 0.5s;
+    }
+  
+    .slide-bottom-1 {
+      position: relative;
+      animation: animate-to-bottom 0.7s;
+    }
+  
+    .slide-bottom-2 {
+      position: relative;
+      animation: animate-to-bottom 0.9s;
+    }
+  
+    .slide-bottom-3 {
+      position: relative;
+      animation: animate-to-bottom 1s;
+    }
+  
+    @keyframes animate-to-bottom {
+      100% {
+        bottom: 0px;
+      }
+  
+      0% {
+        bottom: 100px;
+      }
+    }
+  
+  
+  
+  
+  
+  
+    .slide-left-xl {
+      position: relative;
+      animation: animate-to-left-xl 1.5s;
+    }
+  
+  
+    @keyframes animate-to-left-xl {
+      100% {
+        left: 0px;
+        top: 0px;
+      }
+  
+      0% {
+        left:01px;
+        top: 0px;
+      }
+    }
+  
+  
+    .slide-right-xl {
+      position: relative;
+      animation: animate-to-right-xl 1.5s;
+    }
+  
+  
+    @keyframes animate-to-right-xl {
+      100% {
+        right: 0px;
+        top: 0px;
+      }
+  
+      0% {
+        right: 01px;
+        top: 0px;
+        opacity: 0;
+      }
+    }
+  
+  }

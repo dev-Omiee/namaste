@@ -1,0 +1,76 @@
+.bg-grad {
+  background-image: $bg-grad;
+}
+
+.bg-grad-1 {
+  background-image: $bg-grad-1;
+}
+
+.bg-grad-2 {
+  background-image: $bg-grad-2;
+}
+
+.bg-grad-4 {
+  // background-image: $bg-grad-4;
+  background: $theme2;
+}
+
+.bg-grad-5 {
+  background-image: $bg-grad-5;
+}
+
+@-webkit-keyframes AnimateBG {
+  0% {
+    opacity: 0%;
+  }
+
+  50% {
+    opacity: 0%;
+  }
+
+  100% {
+    opacity: 0%;
+  }
+}
+
+@keyframes AnimateBG {
+  0% {
+    background-position: 0% 50%;
+  }
+
+  50% {
+    background-position: 100% 50%;
+  }
+
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+.bg-default {
+  // background-color: #c6c5c5a1;
+  background-color: $bg-default !important;
+  // background-color: #f0efef;
+  // background-color: #F4F7FA;
+  // #f0efef
+
+}
+
+.bg-default-1 {
+  // background-color: #f0efef;
+  background-color: white !important;
+}
+
+.bg-default-2 {
+  // color: #8c101e;
+  background-color: $bg-default-2 !important;
+}
+
+.bg-contact {
+  justify-content: center;
+    background-image: url("https://images.pexels.com/photos/821754/pexels-photo-821754.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size: cover;
+    opacity: 1;
+    padding-bottom: 20rem;
+}

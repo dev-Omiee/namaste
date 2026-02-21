@@ -1,0 +1,44 @@
+import img from '../../public/favicon.ico'
+
+export const data = [
+    {
+        src: img,
+        content: "Data Analysis",
+        summary: "Unlock the secrets of data analysis and machine learning in our Data Science course. Dive into statistical modeling, gain insights from datasets, and make impactful decisions through hands-on projects."
+    },
+    {
+        src: img,
+        content: "Big Data",
+        summary: "Explore the vast landscape of Big Data. Learn to handle, process, and derive value from massive datasets. Acquire expertise in big data technologies to unravel insights that propel businesses forward."
+    },
+    {
+        src: img,
+        content: "Web Development",
+        summary: "Build a strong foundation in web development. Learn HTML, CSS, and JavaScript to create visually appealing and responsive websites. Understand the core technologies shaping the internet."
+    },
+    {
+        src: img,
+        content: "Full-Stack Development",
+        summary: "Embark on a comprehensive journey into Full-Stack Web Development. Master both front-end and back-end technologies, gaining the skills to create dynamic, interactive, and fully functional web applications."
+    },
+    {
+        src: img,
+        content: "AI and Machine Learning",
+        summary: "Unleash the power of Artificial Intelligence and Machine Learning. Understand intelligent systems, explore algorithms, and build predictive models. Harness the potential to automate complex tasks and drive innovation."
+    },
+    {
+        src: img,
+        content: "Cloud Computing:",
+        summary: "Learn to deploy applications, manage data, and optimize infrastructure. Harness the power of scalable and flexible computing resources for seamless digital transformation with our cloud computing course."
+    },
+    {
+        src: img,
+        content: "Project Management",
+        summary: "Master the art of project management. Acquire skills in planning, executing, and closing projects successfully. Explore methodologies, tools, and best practices to lead teams and deliver projects with precision."
+    },
+    {
+        src: img,
+        content: "Business Intelligence",
+        summary: "Transform raw data into actionable insights. Explore BI tools, data visualization, and analytics techniques. Empower organizations with a competitive edge through informed, strategic decision-making."
+    },
+];

@@ -1,0 +1,176 @@
+@import '../scss/variables.scss';
+
+* {
+    font-family: "Lora", serif;
+    font-weight: 500;
+    /* Set max font weight to 500 */
+}
+
+.text-grad {
+    background: $bg-grad !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.text-grad-1 {
+    font-size: 1rem;
+    background: $bg-grad-1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-grad-2 {
+    font-size: 1rem;
+    background: $bg-grad-2;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-grad-4 {
+    background: $bg-grad-4 !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.text-grad-5 {
+    background: $bg-grad-5 !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}
+
+.active {
+    // font-size: 1rem;
+    width: fit-content;
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hover-grad:hover {
+    // font-size: 1rem;
+    width: fit-content;
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.deco-none {
+    color: $primary-color;
+    text-decoration: none !important;
+}
+
+.primary-color {
+    color: $primary-color;
+}
+
+
+
+.landing-text {
+    color: $primary-color;
+    font-size: 52px;
+    // 44px
+    line-height: 65px;
+    letter-spacing: normal;
+    // font-family: "Circular Std", "Lora", sans-serif;
+    font-family: "Poppins", "Lora", sans-serif;
+    font-weight: 700;
+}
+
+.landing-sub-text {
+    color: $primary-color;
+    font-size: 19px;
+    line-height: 35px;
+    font-family: "Circular Std", "Lora", sans-serif;
+}
+
+@media only screen and (max-width: 1400px) {
+    .landing-text {
+        font-size: 44px;
+        line-height: 3.2rem;
+    }
+
+    .landing-sub-text {
+        font-size: 17px;
+        line-height: 1.6rem;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .landing-text {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .landing-sub-text {
+        font-size: 17px;
+        line-height: 1.6rem;
+    }
+}
+
+.title-text {
+    // padding-right: 19vw;
+    // padding-left: 19vw;
+    color: #161C2D;
+    font-family: "Circular Std", "Lora", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: normal;
+}
+
+@media only screen and (max-width: 1222px) {
+    .title-text {
+        padding-right: 15vw;
+        padding-left: 15vw;
+    }
+}
+
+
+@media only screen and (max-width: 700px) {
+    .title-text {
+        padding-right: 11vw;
+        padding-left: 11vw;
+    }
+}
+
+.contact-form-text {
+    background: $bg-grad;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.left-float-text {
+    padding-top: 60vh;
+    padding-left: 4vw;
+}
+
+.right-float-text {
+    padding-top: 70vh;
+    padding-right: 4vw;
+    text-align: right;
+}
+
+.text-shadow {
+    text-shadow: 5px 5px 10px black;
+}
+
+.text-shadow-white {
+    text-shadow: 5px 5px 10px rgb(255, 255, 255);
+}
+
+.text-color {
+    color: $theme1 ;
+}
+
+.text-color-2 {
+    color: $theme2 ;
+}
+
+.web-color {
+    color: $web-color;
+}
+
+.active-link {
+    background: $bg-grad !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+}

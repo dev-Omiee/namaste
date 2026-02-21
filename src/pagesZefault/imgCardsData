@@ -1,0 +1,28 @@
+import img from '../../public/favicon.ico'
+
+export const data = [
+    {
+        src: img,
+        title: "Cloud Based Products"
+    },
+    {
+        src: img,
+        title: "Revenue Analysis"
+    },
+    {
+        src: img,
+        title: "Skilled Employees"
+    },
+    {
+        src: img,
+        title: "SEO Friendly"
+    },
+    {
+        src: img,
+        title: "High Ratings"
+    },
+    {
+        src: img,
+        title: "24x7 Technical Support"
+    },
+];

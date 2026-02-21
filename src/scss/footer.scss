@@ -1,0 +1,75 @@
+.footer-heading {
+    color: rgba(0, 0, 0, 0.451);
+    padding-bottom: 1rem;
+}
+
+.footer-links {
+    padding-top: 0.5rem;
+}
+
+.footer-container {
+    min-width: 1150px;
+}
+
+.footer-logo-div {
+    width: 2rem;
+}
+
+.footer-link {
+    // width: max-content;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+}
+
+.social-icon {
+    max-width: 2rem;
+    max-height: 1.25rem;
+    margin-right: 0.2rem;
+    padding-top: 0.2rem;
+    width: 50%;
+    transition: 0.2s;
+}
+
+
+.footer-icon {
+    max-width: 2rem;
+    max-height: 1.25rem;
+    transition: 0.2s;
+    margin-right: 0.5rem;
+}
+
+.social-icon:hover {
+    padding-top: 0rem;
+    border-bottom: 1PX 1PX 1PX RED;
+    transition: 0.2s;
+}
+
+@media only screen and (min-width: 800px) {
+    .mail-text {
+        overflow: auto;
+    }
+}
+
+footer {
+    z-index: -10;
+    position: inherit;
+}
+
+.footer-brand-logo {}
+
+// @media only screen and (max-width: 1200px) {
+//     .footer-col {
+//         width: 100%;
+//     }
+// }
+
+// @media only screen and (min-width: 1000px) {
+//     .footer-col {
+//         width: auto;
+//     }
+// }
+
+// .footer-col {
+//     padding-left: 2rem;
+// }
