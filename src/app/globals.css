@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Cinzel:wght@400;600;700&family=Raleway:wght@300;400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --gold: #c9a84c;
+  --gold-light: #e8c97a;
+  --gold-dark: #a07828;
+  --teal: #1a7a6e;
+  --teal-light: #2ab5a0;
+  --peacock-blue: #1b4f72;
+  --cream: #f5edd8;
+  --dark: #0a0a0f;
+  --dark2: #111118;
+  --dark3: #161622;
+  --border: rgba(201,168,76,0.2);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body { background: var(--dark); color: var(--cream); font-family: 'Raleway', sans-serif; }
+
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--dark2); }
+::-webkit-scrollbar-thumb { background: var(--gold-dark); border-radius: 3px; }
+::selection { background: rgba(201,168,76,0.3); color: var(--cream); }
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes shimmer {
+  0%   { background-position: -200% center; }
+  100% { background-position:  200% center; }
+}
+@keyframes pulseGlow {
+  0%,100% { box-shadow: 0 0 15px rgba(42,181,160,0.2); }
+  50%      { box-shadow: 0 0 35px rgba(42,181,160,0.5); }
+}
+@keyframes borderFlow {
+  0%   { border-color: rgba(201,168,76,0.2); }
+  50%  { border-color: rgba(42,181,160,0.4); }
+  100% { border-color: rgba(201,168,76,0.2); }
+}
+
+.animate-fade-up   { animation: fadeUp 0.6s ease both; }
+.anim-d1 { animation-delay: 0.1s; }
+.anim-d2 { animation-delay: 0.2s; }
+.anim-d3 { animation-delay: 0.3s; }
+.anim-d4 { animation-delay: 0.4s; }
+.anim-d5 { animation-delay: 0.5s; }
+.anim-d6 { animation-delay: 0.6s; }
+.pulse-glow { animation: pulseGlow 2.5s ease-in-out infinite; }
+
+.gold-text {
+  background: linear-gradient(135deg, var(--gold) 0%, var(--gold-light) 50%, var(--teal-light) 100%);
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+}
+.gold-shimmer {
+  background: linear-gradient(90deg, var(--gold) 0%, var(--gold-light) 25%, #fff8e7 50%, var(--gold-light) 75%, var(--gold) 100%);
+  background-size: 200% auto;
+  -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
+  animation: shimmer 3s linear infinite;
+}
+
+/* Stripe overrides */
+.StripeElement {
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(201,168,76,0.2);
+  border-radius: 6px;
+  padding: 12px 16px;
+  transition: border-color 0.2s;
+}
+.StripeElement--focus  { border-color: rgba(42,181,160,0.5) !important; }
+.StripeElement--invalid{ border-color: rgba(220,80,80,0.6) !important; }
