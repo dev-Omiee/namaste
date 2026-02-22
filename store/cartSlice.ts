@@ -38,4 +38,5 @@ export const { addToCart, removeFromCart, incrementQuantity, decrementQuantity, 
 export const selectCartItems = (state: { cart: CartState }) => state.cart.items;
 export const selectCartCount = (state: { cart: CartState }) => state.cart.items.reduce((sum, i) => sum + i.quantity, 0);
 export const selectCartTotal = (state: { cart: CartState }) => state.cart.items.reduce((sum, i) => sum + i.price * i.quantity, 0);
+export const selectIsInCart = (state: { cart: CartState }, id: string) => state.cart.items.some((item) => item.id === id);
 export default cartSlice.reducer;
