@@ -28,8 +28,8 @@ export default function AboutPage() {
             background: 'var(--dark3)', border: '1px solid var(--border)', borderRadius: 10,
             padding: '1.75rem', textAlign: 'center', transition: 'all 0.3s',
           }}
-            onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.borderColor = 'rgba(42,181,160,0.35)'; el.style.transform = 'translateY(-3px)'; }}
-            onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.borderColor = 'var(--border)'; el.style.transform = 'translateY(0)'; }}
+            // onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.borderColor = 'rgba(42,181,160,0.35)'; el.style.transform = 'translateY(-3px)'; }}
+            // onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.borderColor = 'var(--border)'; el.style.transform = 'translateY(0)'; }}
           >
             <div style={{ fontSize: '2.5rem', marginBottom: '0.9rem' }}>{c.icon}</div>
             <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.8rem', letterSpacing: '0.1em', color: 'var(--gold)', marginBottom: 8, textTransform: 'uppercase' }}>{c.title}</h3>

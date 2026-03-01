@@ -1,3 +1,4 @@
+'use client'
 import Link from 'next/link';
 import PeacockLogo from './PeacockLogo';
 
@@ -25,8 +26,7 @@ export default function Footer() {
             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
               {[['/', 'Products'], ['/about', 'About Us'], ['/contact', 'Contact'], ['/faq', 'FAQ'], ['/privacy', 'Privacy Policy']].map(([href, label]) => (
                 <li key={href}><Link href={href} style={{ fontSize: '0.8rem', color: '#5a5248', textDecoration: 'none', transition: 'color 0.2s' }}
-                  onMouseEnter={e => (e.currentTarget.style.color = '#d4c4a8')}
-                  onMouseLeave={e => (e.currentTarget.style.color = '#5a5248')}>{label}</Link></li>
+                  >{label}</Link></li>
               ))}
             </ul>
           </div>
@@ -60,3 +60,5 @@ export default function Footer() {
     </footer>
   );
 }
+
+

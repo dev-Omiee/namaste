@@ -1,34 +1,54 @@
-import { Product } from '@/types';
-
+﻿import { Product } from '@/types';
 export const products: Product[] = [
   {
     id: 'Product 1',
     src: '/images/jggery6.png',
     content: 'Jaggery (Gur)',
-    summary: 'Natural, chemical-free jaggery made from fresh sugarcane juice. Rich in minerals and traditional flavor, perfect for sweets, tea, or daily consumption as a healthy sugar alternative.',
+    summary: 'Natural, chemical-free jaggery made from fresh sugarcane juice. Rich in minerals and traditional flavor.',
     price: 160,
+    priceLabel: 'Rs 160/kg',
+    category: 'Solid Jaggery',
+    emoji: '🟫',
+    benefits: ['Rich in minerals', 'Chemical-free', 'Natural sweetener', 'Boosts immunity'],
     unit: 'per kg',
+    longDescription: 'Our jaggery is made from fresh sugarcane juice using traditional methods, preserving all natural minerals and nutrients.',
+    origin: 'Maharashtra, India',
+    weight: '1 kg',
     inStock: true,
   },
   {
     id: 'Product 2',
     src: '/images/Jaggery-Powder.png',
     content: 'Jaggery Powder',
-    summary: 'Finely powdered jaggery with the same natural sweetness and nutrients as solid jaggery. Easy to dissolve and ideal for tea, coffee, desserts, and everyday cooking.',
+    summary: 'Finely powdered jaggery with the same natural sweetness and nutrients. Easy to dissolve.',
     price: 180,
+    priceLabel: 'Rs 180/kg',
+    category: 'Powdered Jaggery',
+    emoji: '🟤',
+    benefits: ['Easy to dissolve', 'Natural sweetener', 'No chemicals', 'Mineral rich'],
     unit: 'per kg',
+    longDescription: 'Finely ground jaggery powder made from pure sugarcane juice. Perfect for tea, coffee, desserts, and everyday cooking.',
+    origin: 'Maharashtra, India',
+    weight: '1 kg',
     inStock: true,
   },
   {
     id: 'Product 3',
     src: '/images/kakvi.avif',
     content: 'Liquid Jaggery',
-    summary: 'Traditional liquid jaggery made from concentrated sugarcane juice. Smooth, rich, and naturally sweet — perfect for drizzling on chapati.',
+    summary: 'Traditional liquid jaggery made from concentrated sugarcane juice. Smooth and naturally sweet.',
     price: 220,
+    priceLabel: 'Rs 220/liter',
+    category: 'Liquid Jaggery',
+    emoji: '🫙',
+    benefits: ['Ready to use', 'Traditional recipe', 'Natural sweetener', 'No preservatives'],
     unit: 'per liter',
+    longDescription: 'Traditional liquid jaggery made from concentrated sugarcane juice. Perfect for drizzling on chapati, mixing in milk, or using in sweets.',
+    origin: 'Maharashtra, India',
+    weight: '1 liter',
     inStock: true,
   },
 ];
-
 export const getProductById = (id: string) =>
   products.find((p) => p.id === id) ?? null;
+export const data = products;

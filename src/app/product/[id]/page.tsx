@@ -79,8 +79,8 @@ export default function ProductPage({ params }: { params: { id: string } }) {
                 background: 'var(--dark3)', border: '1px solid var(--border)', borderRadius: 8, padding: '1rem',
                 transition: 'border-color 0.2s',
               }}
-                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(201,168,76,0.4)')}
-                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
+                // onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(201,168,76,0.4)')}
+                // onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
               >
                 <div style={{ width: 64, height: 64, position: 'relative', borderRadius: 6, overflow: 'hidden', flexShrink: 0 }}>
                   <Image src={p.src} alt={p.content} fill style={{ objectFit: 'cover' }} sizes="64px" />

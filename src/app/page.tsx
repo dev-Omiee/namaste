@@ -1,3 +1,4 @@
+'use client'
 import ProductCard from '@/components/ProductCard';
 import { products } from '@/lib/products';
 
@@ -71,8 +72,8 @@ export default function HomePage() {
                 padding: '2rem 1.5rem', textAlign: 'center',
                 transition: 'border-color 0.25s',
               }}
-                onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(42,181,160,0.35)')}
-                onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
+                // onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(42,181,160,0.35)')}
+                // onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
               >
                 <div style={{ fontSize: '2.4rem', marginBottom: '0.9rem' }}>{c.icon}</div>
                 <h3 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.8rem', letterSpacing: '0.1em', color: 'var(--gold)', marginBottom: 8 }}>{c.title}</h3>
@@ -85,3 +86,4 @@ export default function HomePage() {
     </>
   );
 }
+

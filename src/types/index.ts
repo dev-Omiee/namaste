@@ -1,17 +1,23 @@
-export interface Product {
+﻿export interface Product {
   id: string;
   src: string;
   content: string;
   summary: string;
   price: number;
-  unit?: string;
+  priceLabel: string;
+  category: string;
+  emoji: string;
+  details?: string;
+  benefits: string[];
+  unit: string;
+  longDescription: string;
+  origin: string;
+  weight: string;
   inStock?: boolean;
 }
-
 export interface CartItem extends Product {
   quantity: number;
 }
-
 export interface ShippingDetails {
   fullName: string;
   email: string;

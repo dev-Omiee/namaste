@@ -35,10 +35,21 @@ export const cartSlice = createSlice({
     clearCart(state) {
       state.items = [];
     },
+    incrementQuantity(state, action: PayloadAction<string>) {
+      const item = state.items.find((i) => i.id === action.payload);
+      if (item) item.quantity += 1;
+    },
+    decrementQuantity(state, action: PayloadAction<string>) {
+      const item = state.items.find((i) => i.id === action.payload);
+      if (item) {
+        if (item.quantity <= 1) state.items = state.items.filter((i) => i.id !== action.payload);
+        else item.quantity -= 1;
+      }
+    },
   },
 });
 
-export const { addToCart, removeFromCart, updateQuantity, clearCart } = cartSlice.actions;
+export const { addToCart, removeFromCart, updateQuantity, clearCart, incrementQuantity, decrementQuantity } = cartSlice.actions;
 
 export const selectCartItems = (state: { cart: CartState }) => state.cart.items;
 export const selectCartCount = (state: { cart: CartState }) =>
@@ -47,3 +58,7 @@ export const selectCartTotal = (state: { cart: CartState }) =>
   state.cart.items.reduce((sum, i) => sum + i.price * i.quantity, 0);
 
 export default cartSlice.reducer;
+
+
+
+export const selectIsInCart = (id: string) => (state: { cart: { items: import('@/types').CartItem[] } }) => state.cart.items.some((i) => i.id === id);

@@ -20,6 +20,11 @@ export const data: Product[] = [
       "Chemical-free and unrefined",
       "Perfect sugar substitute",
     ],
+    unit: "kg",
+    longDescription:
+      "Our Jaggery (Gur) is crafted using time-honored methods passed down through generations. Sourced directly from sugarcane farms in Maharashtra, every block is slow-boiled in iron vessels to preserve its natural golden color and rich mineral content. Free from any chemicals, preservatives, or artificial additives.",
+    origin: "Maharashtra, India",
+    weight: "Available in 500g, 1kg, 5kg",
   },
   {
     src: "/images/Jaggery-Powder.png",
@@ -40,6 +45,11 @@ export const data: Product[] = [
       "No added preservatives",
       "Longer shelf life",
     ],
+    unit: "kg",
+    longDescription:
+      "Jaggery Powder offers all the goodness of traditional block jaggery in a convenient, easy-to-use form. Stone-ground from premium quality solid jaggery, it dissolves instantly in hot or cold beverages and blends seamlessly into batters, doughs, and sauces.",
+    origin: "Maharashtra, India",
+    weight: "Available in 500g, 1kg, 5kg",
   },
   {
     src: "/images/kakvi.avif",
@@ -60,5 +70,11 @@ export const data: Product[] = [
       "Ideal for drizzling and dipping",
       "No added sugar or preservatives",
     ],
+    unit: "liter",
+    longDescription:
+      "Liquid Jaggery, known locally as Kakvi, is the rich, viscous nectar extracted during the jaggery-making process. With its deep amber color and complex molasses-like sweetness, it is a beloved ingredient in traditional Indian households.",
+    origin: "Maharashtra, India",
+    weight: "Available in 500ml, 1L, 5L",
   },
 ];
+

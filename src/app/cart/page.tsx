@@ -50,8 +50,8 @@ export default function CartPage() {
               background: 'var(--dark3)', border: '1px solid var(--border)', borderRadius: 10, padding: '1.25rem',
               transition: 'border-color 0.2s',
             }}
-              onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(201,168,76,0.35)')}
-              onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
+              // onMouseEnter={e => ((e.currentTarget as HTMLElement).style.borderColor = 'rgba(201,168,76,0.35)')}
+              // onMouseLeave={e => ((e.currentTarget as HTMLElement).style.borderColor = 'var(--border)')}
             >
               {/* Thumbnail */}
               <div style={{ width: 80, height: 80, position: 'relative', borderRadius: 8, overflow: 'hidden', flexShrink: 0, border: '1px solid var(--border)' }}>
@@ -88,8 +88,8 @@ export default function CartPage() {
                 color: '#c06060', cursor: 'pointer', padding: 8, display: 'flex', alignItems: 'center',
                 transition: 'all 0.2s',
               }}
-                onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.background = 'rgba(180,60,60,0.1)'; el.style.color = '#e08080'; }}
-                onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.background = 'transparent'; el.style.color = '#c06060'; }}
+                // onMouseEnter={e => { const el = e.currentTarget as HTMLElement; el.style.background = 'rgba(180,60,60,0.1)'; el.style.color = '#e08080'; }}
+                // onMouseLeave={e => { const el = e.currentTarget as HTMLElement; el.style.background = 'transparent'; el.style.color = '#c06060'; }}
               >
                 <Trash2 size={15} />
               </button>
