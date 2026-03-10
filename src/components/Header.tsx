@@ -10,7 +10,7 @@ import { selectCartCount } from '@/store/cartSlice';
 const navLinks = [
   { href: "/", label: "Home" },
   { href: "/#products", label: "Products" },
-  { href: "/certifications", label: "Certifications" },
+  // { href: "/certifications", label: "Certifications" },
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
   // { href: "/faq", label: "FAQ" },
