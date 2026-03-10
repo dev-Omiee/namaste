@@ -8,10 +8,12 @@ import { useAppSelector } from '@/store/hooks';
 import { selectCartCount } from '@/store/cartSlice';
 
 const navLinks = [
-  { href: '/', label: 'Products' },
-  { href: '/about', label: 'About Us' },
-  { href: '/contact', label: 'Contact' },
-  { href: '/faq', label: 'FAQ' },
+  { href: "/", label: "Home" },
+  { href: "/#products", label: "Products" },
+  { href: "/certifications", label: "Certifications" },
+  { href: "/about", label: "About Us" },
+  { href: "/contact", label: "Contact" },
+  // { href: "/faq", label: "FAQ" },
 ];
 
 export default function Header() {
@@ -57,7 +59,7 @@ export default function Header() {
         </nav>
 
         {/* Cart + Mobile menu */}
-        <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
+        {/* <div style={{ display: 'flex', alignItems: 'center', gap: 12 }}>
           <Link href="/cart" style={{
             display: 'flex', alignItems: 'center', gap: 8, textDecoration: 'none',
             background: 'linear-gradient(135deg, var(--teal) 0%, var(--peacock-blue) 100%)',
@@ -80,7 +82,6 @@ export default function Header() {
             )}
           </Link>
 
-          {/* Mobile hamburger */}
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             style={{ background: 'none', border: 'none', color: 'var(--cream)', cursor: 'pointer', display: 'none' }}
@@ -89,7 +90,7 @@ export default function Header() {
           >
             {menuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
-        </div>
+        </div> */}
       </div>
 
       {/* Mobile Nav Drawer */}

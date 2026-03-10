@@ -8,10 +8,12 @@ import { useAppSelector } from "@/store/hooks";
 import { selectCartCount } from "@/store/cartSlice";
 
 const navLinks = [
-  { href: "/", label: "Products" },
+  { href: "/", label: "Home" },
+  { href: "/#products", label: "Products" },
+  { href: "/certifications", label: "Certifications" },
   { href: "/about", label: "About Us" },
   { href: "/contact", label: "Contact" },
-  { href: "/faq", label: "FAQ" },
+  // { href: "/faq", label: "FAQ" },
 ];
 
 export default function Header() {
@@ -38,7 +40,7 @@ export default function Header() {
           ))}
         </nav>
 
-        <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
+        {/* <div style={{ display: "flex", alignItems: "center", gap: "12px" }}>
           <Link href="/cart" className="btn-primary" style={{ padding: "9px 18px", fontSize: "0.73rem", position: "relative" }}>
             <ShoppingCart size={15} />
             Cart
@@ -49,7 +51,7 @@ export default function Header() {
           <button onClick={() => setMenuOpen(!menuOpen)} className="mobile-menu-btn" style={{ background: "none", border: "none", color: "#b0a090", cursor: "pointer", display: "none" }}>
             {menuOpen ? <X size={22} /> : <Menu size={22} />}
           </button>
-        </div>
+        </div> */}
       </div>
 
       {menuOpen && (
