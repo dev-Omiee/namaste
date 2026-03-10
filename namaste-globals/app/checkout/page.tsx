@@ -72,7 +72,7 @@ export default function CheckoutPage() {
               <h2 className="font-cinzel" style={{ fontSize: "0.78rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "1.5rem" }}>Contact Information</h2>
               <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1rem", marginBottom: "1rem" }}>
                 <div><label style={labelStyle}>Full Name *</label><input name="name" required value={form.name} onChange={handleChange} className="input-field" placeholder="Your full name" /></div>
-                <div><label style={labelStyle}>Phone *</label><input name="phone" required value={form.phone} onChange={handleChange} className="input-field" placeholder="+91 90496 46485" /></div>
+                <div><label style={labelStyle}>Phone *</label><input name="phone" required value={form.phone} onChange={handleChange} className="input-field" placeholder="+917499418833" /></div>
               </div>
               <div><label style={labelStyle}>Email Address *</label><input name="email" type="email" required value={form.email} onChange={handleChange} className="input-field" placeholder="you@example.com" /></div>
             </div>

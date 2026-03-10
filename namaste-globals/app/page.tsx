@@ -66,7 +66,7 @@ export default function HomePage() {
           </div>
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "1.5rem" }}>
             {[
-              { icon: "🌿", title: "100% Natural", desc: "No chemicals, no additives. Every product is pure and unadulterated, straight from the source." },
+              { icon: "🌿", title: "Pure Natural", desc: "No chemicals, no additives. Every product is pure and unadulterated, straight from the source." },
               { icon: "🚢", title: "Worldwide Shipping", desc: "We export to 30+ countries with reliable logistics partners and full documentation support." },
               { icon: "⚖️", title: "Quality Certified", desc: "ISO certified processes with third-party lab testing on every batch." },
               { icon: "🤝", title: "Farmer Direct", desc: "We source directly from farmers, ensuring fair trade and the freshest products." },

@@ -51,9 +51,9 @@ export default function AboutPage() {
         <h2 className="font-cormorant" style={{ fontSize: "2rem", color: "var(--cream)", marginBottom: "2rem" }}>Our Team</h2>
         <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(250px, 1fr))", gap: "1.5rem" }}>
           {[
-            { name: "Ajinkya Patil", role: "Founder & CEO", emoji: "👨‍💼" },
-            { name: "Rohit Patil", role: "Head of Exports", emoji: "👨‍💼" },
-            { name: "Rishikesh Patil", role: "Quality & Compliance", emoji: "👨‍💼" },
+            { name: "Rohit Patil", role: "Founder", emoji: "👨‍💼" },
+            { name: "Rishikesh Patil", role: "Co-Founder", emoji: "👨‍💼" },
+            { name: "Ajinkya Patil", role: "CEO", emoji: "👨‍💼" },
           ].map(({ name, role, emoji }) => (
             <div key={name} className="card-hover" style={{ background: "var(--dark3)", borderRadius: "10px", padding: "2rem 1.5rem", textAlign: "center" }}>
               <div style={{ fontSize: "3rem", marginBottom: "0.75rem" }}>{emoji}</div>

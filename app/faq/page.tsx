@@ -9,7 +9,7 @@ const faqs = [
   { q: "Are your products certified and tested?", a: "Yes. All our products are FSSAI licensed, ISO 22000:2018 certified for food safety, and APEDA registered for export. Each batch undergoes third-party lab testing for purity and quality." },
   { q: "How long does delivery take?", a: "Domestic orders within India are typically delivered in 3–7 business days. International export shipments take 10–21 business days depending on the destination country and customs clearance." },
   { q: "Can I return or exchange a product?", a: "We accept returns for damaged or incorrect products within 48 hours of delivery. Please contact us with photographic evidence at info@namasteglob.com. Perishable food products cannot be returned due to food safety regulations." },
-  { q: "Is the jaggery organic and chemical-free?", a: "Yes. Our jaggery is sourced from farmers who use traditional open-pan sugarcane processing without any chemical bleaching or preservatives. It is 100% natural and minimally processed." },
+  { q: "Is the jaggery organic and chemical-free?", a: "Yes. Our jaggery is sourced from farmers who use traditional open-pan sugarcane processing without any chemical bleaching or preservatives. It is Pure Natural and minimally processed." },
   { q: "Do you provide product documentation for customs?", a: "Yes. For export orders, we provide all required documentation including Certificate of Origin, FSSAI Certificate, Phytosanitary Certificate (if required), and commercial invoice." },
 ];
 
