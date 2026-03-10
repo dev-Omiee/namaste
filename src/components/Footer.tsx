@@ -35,7 +35,7 @@ export default function Footer() {
           <div>
             <h4 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.68rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>Reach Us</h4>
             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              {['Sangli, Maharashtra, India', 'info@namasteglob.com', '+917499418833'].map(t => (
+              {['Sangli, Maharashtra, India', 'info.namasteglobals@gmail.com', '+917499418833'].map(t => (
                 <li key={t} style={{ fontSize: '0.8rem', color: '#5a5248' }}>{t}</li>
               ))}
             </ul>

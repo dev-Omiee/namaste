@@ -31,7 +31,7 @@ export default function Footer() {
           <div>
             <p className="font-cinzel" style={{ fontSize: "0.68rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--gold)", marginBottom: "1rem" }}>Reach Us</p>
             <ul style={{ listStyle: "none", display: "flex", flexDirection: "column", gap: "0.5rem" }}>
-              {["Sangli, Maharashtra", "info@namasteglob.com", "+917499418833"].map((item) => (
+              {["Sangli, Maharashtra", "info.namasteglobals@gmail.com", "+917499418833"].map((item) => (
                 <li key={item} style={{ fontSize: "0.8rem", color: "#5a5045" }}>{item}</li>
               ))}
             </ul>

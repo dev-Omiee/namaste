@@ -46,7 +46,7 @@ export default function PrivacyPage() {
         </Section>
 
         <Section title="5. Returns & Refund Policy">
-          <Para>We accept return or refund requests within 7 days of delivery if your product arrives damaged, incorrect, or defective. Please contact us at info@namasteglob.com with your order ID and photographs of the issue.</Para>
+          <Para>We accept return or refund requests within 7 days of delivery if your product arrives damaged, incorrect, or defective. Please contact us at info.namasteglobals@gmail.com with your order ID and photographs of the issue.</Para>
           <Para>Refunds are processed within 5–7 business days to your original payment method. Shipping costs are non-refundable unless the return is due to our error.</Para>
         </Section>
 
@@ -60,7 +60,7 @@ export default function PrivacyPage() {
         </Section>
 
         <Section title="8. Contact">
-          <Para>For any privacy or legal concerns, contact us at: <span style={{ color: 'var(--teal-light)' }}>info@namasteglob.com</span> or write to Namaste Globals, R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa, District Sangli, Maharashtra, 415403.</Para>
+          <Para>For any privacy or legal concerns, contact us at: <span style={{ color: 'var(--teal-light)' }}>info.namasteglobals@gmail.com</span> or write to Namaste Globals, R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa, District Sangli, Maharashtra, 415403.</Para>
         </Section>
       </div>
     </div>

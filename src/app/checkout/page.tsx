@@ -117,7 +117,7 @@ export default function CheckoutPage() {
                       onChange={e => setShipping(p => ({ ...p, phone: e.target.value }))}
                       onFocus={e => (e.target.style.borderColor = 'rgba(42,181,160,0.5)')}
                       onBlur={e => (e.target.style.borderColor = 'rgba(201,168,76,0.18)')}
-                      placeholder="+91 90496 46485" />
+                      placeholder="+91 74994 18833" />
                   </div>
                   <div style={{ gridColumn: '1 / -1' }}>
                     <label style={labelStyle}>Address *</label>

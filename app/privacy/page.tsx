@@ -25,9 +25,9 @@ export default function PrivacyPage() {
           { title: "2. How We Use Your Information", body: "We use your information to process and fulfil orders, send order confirmations and shipping updates, respond to customer inquiries, improve our website and services, and comply with legal obligations. We do not sell, trade, or rent your personal data to third parties." },
           { title: "3. Payment Security", body: "All payments are processed through Stripe, a PCI DSS Level 1 certified payment processor. We never have access to your full card number. Transactions are encrypted using TLS/SSL technology." },
           { title: "4. Cookies", body: "We use essential cookies to enable core functionality like your shopping cart. We may use analytics cookies (e.g., Google Analytics) to understand how visitors use our site. You can disable cookies in your browser settings, though this may affect site functionality." },
-          { title: "5. Data Retention", body: "We retain your order data for 7 years as required by Indian GST law. You may request deletion of your personal data by contacting info@namasteglob.com." },
-          { title: "6. Your Rights", body: "You have the right to access, rectify, or delete your personal data. To exercise these rights, email info@namasteglob.com. We will respond within 30 business days." },
-          { title: "7. Contact", body: "For privacy concerns, contact our Data Officer at info@namasteglob.com or R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa, District Sangli, Maharashtra, 415403, ." },
+          { title: "5. Data Retention", body: "We retain your order data for 7 years as required by Indian GST law. You may request deletion of your personal data by contacting info.namasteglobals@gmail.com." },
+          { title: "6. Your Rights", body: "You have the right to access, rectify, or delete your personal data. To exercise these rights, email info.namasteglobals@gmail.com. We will respond within 30 business days." },
+          { title: "7. Contact", body: "For privacy concerns, contact our Data Officer at info.namasteglobals@gmail.com or R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa, District Sangli, Maharashtra, 415403, ." },
         ].map(({ title, body }) => (
           <div key={title} style={{ marginBottom: "1.75rem" }}>
             <h3 className="font-cinzel" style={{ fontSize: "0.78rem", letterSpacing: "0.12em", color: "var(--gold)", marginBottom: "0.6rem" }}>{title}</h3>

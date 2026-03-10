@@ -2,13 +2,13 @@ export const metadata = { title: "FAQ — Namaste Globals" };
 
 const faqs = [
   { q: "What products does Namaste Globals export?", a: "We currently specialize in premium natural jaggery products — Jaggery (Gur), Jaggery Powder, and Liquid Jaggery (Kakvi). We are expanding to include other traditional Indian agri-products such as spices, grains, and wellness items." },
-  { q: "Do you offer bulk and wholesale pricing?", a: "Yes. We offer competitive bulk pricing for orders above 100kg. Please contact us via the Contact page or email info@namasteglob.com with your quantity requirements and destination country." },
+  { q: "Do you offer bulk and wholesale pricing?", a: "Yes. We offer competitive bulk pricing for orders above 100kg. Please contact us via the Contact page or email info.namasteglobals@gmail.com with your quantity requirements and destination country." },
   { q: "Which countries do you ship to?", a: "We currently export to 30+ countries including the USA, UK, Australia, Canada, UAE, Singapore, Germany, France, and all major South Asian markets. Reach out to confirm availability in your region." },
   { q: "How do I place an order?", a: "You can order directly through our website. Add products to your cart, proceed to checkout, fill in your details, and complete payment via Stripe. For bulk/export orders, contact us directly." },
   { q: "What payment methods do you accept?", a: "We accept all major credit and debit cards, UPI, net banking, and international cards — all processed securely through Stripe. We do not store any card information." },
   { q: "Are your products certified and tested?", a: "Yes. All our products are FSSAI licensed, ISO 22000:2018 certified for food safety, and APEDA registered for export. Each batch undergoes third-party lab testing for purity and quality." },
   { q: "How long does delivery take?", a: "Domestic orders within India are typically delivered in 3–7 business days. International export shipments take 10–21 business days depending on the destination country and customs clearance." },
-  { q: "Can I return or exchange a product?", a: "We accept returns for damaged or incorrect products within 48 hours of delivery. Please contact us with photographic evidence at info@namasteglob.com. Perishable food products cannot be returned due to food safety regulations." },
+  { q: "Can I return or exchange a product?", a: "We accept returns for damaged or incorrect products within 48 hours of delivery. Please contact us with photographic evidence at info.namasteglobals@gmail.com. Perishable food products cannot be returned due to food safety regulations." },
   { q: "Is the jaggery organic and chemical-free?", a: "Yes. Our jaggery is sourced from farmers who use traditional open-pan sugarcane processing without any chemical bleaching or preservatives. It is Pure Natural and minimally processed." },
   { q: "Do you provide product documentation for customs?", a: "Yes. For export orders, we provide all required documentation including Certificate of Origin, FSSAI Certificate, Phytosanitary Certificate (if required), and commercial invoice." },
 ];
