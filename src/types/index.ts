@@ -6,6 +6,7 @@ export interface Product {
   price: number;
   priceLabel: string;
   category: string;
+  hsCode: string;
   emoji: string;
   details?: string;
   benefits: string[];

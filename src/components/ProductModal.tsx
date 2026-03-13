@@ -121,14 +121,14 @@ export default function ProductModal({ product, onClose }: Props) {
             {/* Info */}
             <div>
               <div style={{ display: 'flex', alignItems: 'center', gap: 8, marginBottom: 8, flexWrap: 'wrap' }}>
-                <span style={{
+                {/* <span style={{
                   fontSize: '0.55rem', letterSpacing: '0.2em', textTransform: 'uppercase',
                   padding: '3px 9px', borderRadius: 3,
                   border: '1px solid rgba(42,181,160,0.3)', color: 'var(--teal-light)',
                   background: 'rgba(26,122,110,0.08)',
                 }}>
                   {product.category}
-                </span>
+                </span> */}
                 {product.inStock && (
                   <span style={{
                     fontSize: '0.55rem', letterSpacing: '0.18em', textTransform: 'uppercase',
@@ -136,7 +136,7 @@ export default function ProductModal({ product, onClose }: Props) {
                     border: '1px solid rgba(60,160,80,0.35)', color: '#6abf7a',
                     background: 'rgba(40,120,60,0.1)',
                   }}>
-                    In Stock
+                    {product.hsCode}
                   </span>
                 )}
               </div>
