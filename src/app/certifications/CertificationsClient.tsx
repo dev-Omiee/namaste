@@ -27,7 +27,11 @@ export default function CertificationsClient() {
         </h1>
         <div style={{ width: 60, height: 1, background: 'linear-gradient(to right, transparent, var(--gold), transparent)', margin: '1.25rem auto 1.5rem' }} />
         <p style={{ fontSize: '0.88rem', color: '#7a6e60', lineHeight: 1.85, maxWidth: 520, margin: '0 auto' }}>
-          All documents are authentic and verifiable.
+          All documents are authentic and verifiable. Drop PDFs into{' '}
+          <code style={{ fontSize: '0.78rem', color: 'var(--teal-light)', background: 'rgba(42,181,160,0.08)', padding: '2px 6px', borderRadius: 3 }}>
+            public/certificates/
+          </code>{' '}
+          and they appear here automatically.
         </p>
       </div>
 
@@ -48,7 +52,7 @@ export default function CertificationsClient() {
         {files.map((filename, i) => {
           const name = filename
             .replace(/\.pdf$/i, '')
-            .replace(/\b\w/g, c => c.toUpperCase());
+            .toUpperCase();
           const file = `/certificates/${filename}`;
           return (
             <div
