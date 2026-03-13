@@ -6,7 +6,7 @@ export interface Product {
   price: number;
   priceLabel: string;
   category: string;
-  hsCode: string;
+  hsCode?: string;
   emoji: string;
   details?: string;
   benefits: string[];
@@ -14,5 +14,7 @@ export interface Product {
   longDescription: string;
   origin: string;
   weight: string;
+  shelfLife?: string;
+  storageConditions?: string[];
   inStock?: boolean;
 }

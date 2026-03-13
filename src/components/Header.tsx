@@ -7,7 +7,12 @@ import PeacockLogo from './PeacockLogo';
 
 const navLinks = [
   { href: '/', label: 'Home' },
-  { href: '/#products', label: 'Products' },
+  {
+    label: 'Products',
+    children: [
+      { href: '/#products', label: 'Jaggery Products' },
+    ],
+  },
   { href: '/about', label: 'About Us' },
   { href: '/certifications', label: 'Certifications' },
   {
@@ -23,7 +28,7 @@ const navLinks = [
 export default function Header() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const [dropOpen, setDropOpen] = useState(false);
+  const [openDrop, setOpenDrop] = useState<string | null>(null);
 
   return (
     <header style={{
@@ -55,25 +60,29 @@ export default function Header() {
         <nav style={{ display: 'flex', alignItems: 'center', gap: 2 }} className="nav-desktop">
           {navLinks.map((item) => {
             if ('children' in item) {
+              const isOpen = openDrop === item.label;
+              const childActive = item.children?.some(c => pathname === c.href) ?? false;
               return (
                 <div
                   key={item.label}
                   style={{ position: 'relative' }}
-                  onMouseEnter={() => setDropOpen(true)}
-                  onMouseLeave={() => setDropOpen(false)}
+                  onMouseEnter={() => setOpenDrop(item.label)}
+                  onMouseLeave={() => setOpenDrop(null)}
                 >
                   <button style={{
                     display: 'flex', alignItems: 'center', gap: 4, cursor: 'pointer',
                     fontFamily: 'Raleway, sans-serif', fontSize: '0.73rem', fontWeight: 500,
                     letterSpacing: '0.1em', textTransform: 'uppercase', background: 'none', border: 'none',
-                    padding: '8px 14px', borderRadius: 4, color: '#9a8878', transition: 'color 0.2s',
+                    padding: '8px 14px', borderRadius: 4, transition: 'color 0.2s',
+                    color: childActive ? 'var(--gold-light)' : '#9a8878',
+                    borderBottom: childActive ? '1px solid var(--gold)' : '1px solid transparent',
                   }}
                     onMouseEnter={e => ((e.currentTarget as HTMLElement).style.color = 'var(--gold-light)')}
-                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = '#9a8878')}
+                    onMouseLeave={e => ((e.currentTarget as HTMLElement).style.color = childActive ? 'var(--gold-light)' : '#9a8878')}
                   >
                     {item.label} <ChevronDown size={12} />
                   </button>
-                  {dropOpen && (
+                  {isOpen && (
                     <div style={{
                       position: 'absolute', top: '100%', left: 0,
                       background: '#0d0d18', border: '1px solid rgba(201,168,76,0.2)',
@@ -81,35 +90,40 @@ export default function Header() {
                       boxShadow: '0 12px 36px rgba(0,0,0,0.5)',
                       zIndex: 300,
                     }}>
-                      {item.children.map(child => (
-                        <Link key={child.href} href={child.href} style={{
-                          display: 'block', padding: '10px 16px', textDecoration: 'none',
-                          fontFamily: 'Raleway, sans-serif', fontSize: '0.72rem', fontWeight: 500,
-                          letterSpacing: '0.08em', textTransform: 'uppercase',
-                          color: pathname === child.href ? 'var(--gold-light)' : '#9a8878',
-                          background: pathname === child.href ? 'rgba(201,168,76,0.08)' : 'transparent',
-                          borderBottom: '1px solid rgba(201,168,76,0.07)',
-                          transition: 'all 0.15s',
-                        }}
-                          onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(201,168,76,0.1)'; (e.currentTarget as HTMLElement).style.color = 'var(--gold-light)'; }}
-                          onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = pathname === child.href ? 'rgba(201,168,76,0.08)' : 'transparent'; (e.currentTarget as HTMLElement).style.color = pathname === child.href ? 'var(--gold-light)' : '#9a8878'; }}
-                        >
-                          {child.label}
-                        </Link>
-                      ))}
+                      {item.children?.map(child => {
+                        const active = pathname === child.href;
+                        return (
+                          <Link key={child.href} href={child.href} style={{
+                            display: 'block', padding: '10px 16px', textDecoration: 'none',
+                            fontFamily: 'Raleway, sans-serif', fontSize: '0.72rem', fontWeight: 500,
+                            letterSpacing: '0.08em', textTransform: 'uppercase',
+                            color: active ? 'var(--gold-light)' : '#9a8878',
+                            background: active ? 'rgba(201,168,76,0.08)' : 'transparent',
+                            borderBottom: '1px solid rgba(201,168,76,0.07)',
+                            transition: 'all 0.15s',
+                          }}
+                            onMouseEnter={e => { (e.currentTarget as HTMLElement).style.background = 'rgba(201,168,76,0.1)'; (e.currentTarget as HTMLElement).style.color = 'var(--gold-light)'; }}
+                            onMouseLeave={e => { (e.currentTarget as HTMLElement).style.background = active ? 'rgba(201,168,76,0.08)' : 'transparent'; (e.currentTarget as HTMLElement).style.color = active ? 'var(--gold-light)' : '#9a8878'; }}
+                          >
+                            {child.label}
+                          </Link>
+                        );
+                      })}
                     </div>
                   )}
                 </div>
               );
             }
+
+            const active = pathname === item.href;
             return (
               <Link key={item.href} href={item.href!} style={{
                 fontFamily: 'Raleway, sans-serif', fontSize: '0.73rem', fontWeight: 500,
                 letterSpacing: '0.1em', textTransform: 'uppercase', textDecoration: 'none',
                 padding: '8px 14px', borderRadius: 4, transition: 'all 0.2s',
-                color: pathname === item.href ? 'var(--gold-light)' : '#9a8878',
-                background: pathname === item.href ? 'rgba(201,168,76,0.08)' : 'transparent',
-                borderBottom: pathname === item.href ? '1px solid var(--gold)' : '1px solid transparent',
+                color: active ? 'var(--gold-light)' : '#9a8878',
+                background: active ? 'rgba(201,168,76,0.08)' : 'transparent',
+                borderBottom: active ? '1px solid var(--gold)' : '1px solid transparent',
               }}>
                 {item.label}
               </Link>
@@ -146,7 +160,7 @@ export default function Header() {
         }}>
           {[
             { href: '/', label: 'Home' },
-            { href: '/#products', label: 'Products' },
+            { href: '/#products', label: 'Jaggery Products' },
             { href: '/about', label: 'About Us' },
             { href: '/certifications', label: 'Certifications' },
             { href: '/payment-shipping', label: 'Payment & Shipping' },
