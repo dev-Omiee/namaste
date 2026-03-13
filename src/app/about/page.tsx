@@ -37,9 +37,65 @@ export default function AboutPage() {
           </div>
         ))}
       </div>
+   <div style={{ marginTop: '4rem' }}>
+        <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
+          <p style={{ fontSize: '0.63rem', letterSpacing: '0.32em', textTransform: 'uppercase', color: 'var(--teal-light)', marginBottom: 10 }}>The People Behind It</p>
+          <h2 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', fontWeight: 600, color: 'var(--cream)' }}>
+            Patil Family
+          </h2>
+          <div style={{ width: 60, height: 1, background: 'linear-gradient(to right, transparent, var(--gold), transparent)', margin: '1.25rem auto 0' }} />
+        </div>
 
+        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(260px, 1fr))', gap: '1.5rem' }}>
+          {[
+            {
+              emoji: '👨‍💼',
+              name: 'Rohit Patil',
+              role: 'Founder & Managing Director',
+              bio: 'The driving force behind Namaste Globals, Rohit built the company from the ground up with over 15 years of experience in agro commodity trade. His deep roots in Maharashtra\'s farming community and sharp eye for quality have shaped every aspect of the business.',
+            },
+            {
+              emoji: '👨‍🌾',
+              name: 'Hrushikesh Patil',
+              role: 'Head of Operations & Sourcing',
+              bio: 'Hrushikesh oversees the entire supply chain — from farm to shipment. With hands-on knowledge of sugarcane cultivation and processing, he ensures every batch meets the highest standards of purity and consistency before it leaves the facility.',
+            },
+            {
+              emoji: '👨‍💻',
+              name: 'Ajinkya Patil',
+              role: 'Export & Business Development',
+              bio: 'The youngest of the three, Ajinkya brings fresh energy and a global outlook to Namaste Globals. He manages international client relationships, export documentation, and is spearheading the company\'s digital presence and new market expansion.',
+            },
+          ].map((member, i) => (
+            <div key={member.name} className={`animate-fade-up anim-d${i + 1}`} style={{
+              background: 'var(--dark3)', border: '1px solid var(--border)', borderRadius: 12,
+              padding: '2rem', textAlign: 'center', transition: 'all 0.3s',
+            }}>
+              <div style={{
+                width: 72, height: 72, borderRadius: '50%', margin: '0 auto 1.25rem',
+                background: 'linear-gradient(135deg, rgba(201,168,76,0.15), rgba(42,181,160,0.1))',
+                border: '2px solid rgba(201,168,76,0.25)',
+                display: 'flex', alignItems: 'center', justifyContent: 'center',
+                fontSize: '2.2rem',
+              }}>
+                {member.emoji}
+              </div>
+              <h3 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '1.35rem', fontWeight: 700, color: 'var(--cream)', marginBottom: 4 }}>
+                {member.name}
+              </h3>
+              <p style={{ fontFamily: 'Cinzel, serif', fontSize: '0.58rem', letterSpacing: '0.14em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>
+                {member.role}
+              </p>
+              <div style={{ width: 30, height: 1, background: 'rgba(201,168,76,0.3)', margin: '0 auto 1rem' }} />
+              <p style={{ fontSize: '0.78rem', color: '#6a5e50', lineHeight: 1.8 }}>
+                {member.bio}
+              </p>
+            </div>
+          ))}
+        </div>
+      </div>
       {/* Story */}
-      <div style={{ background: 'var(--dark3)', border: '1px solid var(--border)', borderLeft: '3px solid var(--gold)', borderRadius: 10, padding: '2.5rem', marginBottom: '3rem' }}>
+      <div style={{ background: 'var(--dark3)', border: '1px solid var(--border)', borderLeft: '3px solid var(--gold)', borderRadius: 10, padding: '2.5rem', marginBottom: '3rem', marginTop: '3rem' }}>
         <h2 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '2rem', fontWeight: 600, color: 'var(--cream)', marginBottom: '1.25rem' }}>Our Journey</h2>
         <p style={{ fontSize: '0.85rem', lineHeight: 1.9, color: '#8a7a68', marginBottom: '1rem' }}>
           Namaste Globals began with a single vision: to bring the authentic sweetness and purity of Indian jaggery to the world — and to do it without compromise. What started as a small trading house has grown into a trusted name in natural food exports.
@@ -52,31 +108,9 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* Timeline */}
-      <div>
-        <h2 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: '2rem', fontWeight: 600, color: 'var(--cream)', marginBottom: '2rem', textAlign: 'center' }}>Milestones</h2>
-        <div style={{ position: 'relative', paddingLeft: '2rem' }}>
-          <div style={{ position: 'absolute', left: 0, top: 0, bottom: 0, width: 1, background: 'linear-gradient(to bottom, var(--gold), transparent)' }} />
-          {[
-            { year: '2009', event: 'Namaste Globals founded in Sangli with a focus on jaggery exports.' },
-            { year: '2012', event: 'Received FSSAI certification. First export shipment to the UAE.' },
-            { year: '2016', event: 'Expanded product range to include Jaggery Powder and Liquid Jaggery.' },
-            { year: '2019', event: 'Crossed 30 export destinations. ISO certification achieved.' },
-            { year: '2024', event: 'Launched direct-to-consumer online store with Stripe-secured payments.' },
-          ].map((item, i) => (
-            <div key={item.year} style={{ display: 'flex', gap: '1.5rem', marginBottom: '2rem', position: 'relative' }}>
-              <div style={{
-                position: 'absolute', left: '-2.35rem', top: 4,
-                width: 12, height: 12, borderRadius: '50%',
-                background: 'linear-gradient(135deg, var(--gold), var(--teal))',
-                border: '2px solid var(--dark)',
-              }} />
-              <div style={{ fontFamily: 'Cinzel, serif', fontSize: '0.85rem', color: 'var(--gold)', minWidth: 48, paddingTop: 2 }}>{item.year}</div>
-              <p style={{ fontSize: '0.82rem', color: '#7a6e60', lineHeight: 1.7 }}>{item.event}</p>
-            </div>
-          ))}
-        </div>
-      </div>
+      {/* Team */}
+   
+
     </div>
   );
 }

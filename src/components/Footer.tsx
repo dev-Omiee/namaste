@@ -16,7 +16,7 @@ export default function Footer() {
               <PeacockLogo size={34} />
               <span className="gold-text" style={{ fontFamily: 'Cinzel, serif', fontSize: '0.92rem', fontWeight: 700 }}>Namaste Globals</span>
             </div>
-            <p style={{ fontSize: '0.76rem', lineHeight: 1.8, color: '#4a4035', maxWidth: 210 }}>
+            <p style={{ fontSize: '0.76rem', lineHeight: 1.8, color: '#836442', maxWidth: 210 }}>
               Bridging the world's finest natural goods across borders. Rooted in Indian tradition, delivered with global excellence.
             </p>
             <div style={{ marginTop: '1.1rem', display: 'flex', gap: 8, flexWrap: 'wrap' }}>
@@ -44,9 +44,9 @@ export default function Footer() {
                 ['/privacy', 'Privacy Policy'],
               ].map(([href, label]) => (
                 <li key={href}>
-                  <Link href={href} style={{ fontSize: '0.75rem', color: '#4a4035', textDecoration: 'none', transition: 'color 0.2s', lineHeight: 1 }}
+                  <Link href={href} style={{ fontSize: '0.75rem', color: '#836442', textDecoration: 'none', transition: 'color 0.2s', lineHeight: 1 }}
                     onMouseEnter={e => (e.currentTarget.style.color = 'var(--teal-light)')}
-                    onMouseLeave={e => (e.currentTarget.style.color = '#4a4035')}
+                    onMouseLeave={e => (e.currentTarget.style.color = '#836442')}
                   >{label}</Link>
                 </li>
               ))}
@@ -57,19 +57,19 @@ export default function Footer() {
           <div>
             <h4 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.62rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>Reach Us</h4>
             <ul style={{ listStyle: 'none', padding: 0, display: 'flex', flexDirection: 'column', gap: 8 }}>
-              <li style={{ fontSize: '0.74rem', color: '#4a4035', lineHeight: 1.65 }}>
+              <li style={{ fontSize: '0.74rem', color: '#836442', lineHeight: 1.65 }}>
                 R-094-09, Tanaji Lakhmoji Patil Galli,<br />At Post Kameri, Taluka Walawa,<br />Sangli, Maharashtra — 415403
               </li>
               <li>
-                <a href="mailto:info.namasteglobals@gmail.com" style={{ fontSize: '0.74rem', color: '#4a4035', textDecoration: 'none' }}
+                <a href="mailto:info.namasteglobals@gmail.com" style={{ fontSize: '0.74rem', color: '#836442', textDecoration: 'none' }}
                   onMouseEnter={e => (e.currentTarget.style.color = 'var(--teal-light)')}
-                  onMouseLeave={e => (e.currentTarget.style.color = '#4a4035')}
+                  onMouseLeave={e => (e.currentTarget.style.color = '#836442')}
                 >info.namasteglobals@gmail.com</a>
               </li>
               <li>
-                <a href="tel:+917499418833" style={{ fontSize: '0.74rem', color: '#4a4035', textDecoration: 'none' }}
+                <a href="tel:+917499418833" style={{ fontSize: '0.74rem', color: '#836442', textDecoration: 'none' }}
                   onMouseEnter={e => (e.currentTarget.style.color = 'var(--teal-light)')}
-                  onMouseLeave={e => (e.currentTarget.style.color = '#4a4035')}
+                  onMouseLeave={e => (e.currentTarget.style.color = '#836442')}
                 >+91 74994 18833</a>
               </li>
               <li>
@@ -92,7 +92,7 @@ export default function Footer() {
           {/* Enquire */}
           <div>
             <h4 style={{ fontFamily: 'Cinzel, serif', fontSize: '0.62rem', letterSpacing: '0.22em', textTransform: 'uppercase', color: 'var(--gold)', marginBottom: '1rem' }}>Enquire Now</h4>
-            <p style={{ fontSize: '0.74rem', color: '#4a4035', lineHeight: 1.8, marginBottom: '1rem' }}>
+            <p style={{ fontSize: '0.74rem', color: '#836442', lineHeight: 1.8, marginBottom: '1rem' }}>
               Looking to source in bulk or export? Send us your requirements and we'll respond within 24 hours.
             </p>
             <Link href="/contact" style={{
