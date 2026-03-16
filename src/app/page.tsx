@@ -13,7 +13,7 @@ export default function HomePage() {
           🦚 Pure · Natural · Traditionally Crafted
         </p>
         <h1 className="animate-fade-up anim-d1" style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(2.4rem, 8vw, 5.5rem)', fontWeight: 700, lineHeight: 1.06, marginBottom: '1.5rem' }}>
-          Global Trade,<br /><span className="gold-shimmer">Rooted in Tradition</span>
+          <span className="gold-shimmer">Namaste Globals</span>
         </h1>
         <p className="animate-fade-up anim-d2" style={{ fontSize: 'clamp(0.85rem, 2.5vw, 1rem)', fontWeight: 300, color: '#7a6e60', maxWidth: 480, margin: '0 auto 2.5rem', lineHeight: 1.85 }}>
           Premium natural jaggery sourced directly from sugarcane farms across Maharashtra — chemical-free, mineral-rich, exported worldwide.

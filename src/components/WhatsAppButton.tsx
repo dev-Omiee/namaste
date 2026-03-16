@@ -4,7 +4,7 @@ import { useState } from 'react';
 export default function WhatsAppButton() {
   const [hovered, setHovered] = useState(false);
   const phone = '917499418833';
-  const message = encodeURIComponent('Hi Namaste Globals! I\'d like to enquire about your jaggery products.');
+  const message = encodeURIComponent('Hi Namaste Globals! I\'d like to enquire about your products.');
   const url = `https://wa.me/${phone}?text=${message}`;
 
   return (
