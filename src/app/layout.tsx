@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     description: 'Chemical-free, FSSAI certified jaggery from Maharashtra. Natural jaggery blocks, powder and liquid jaggery — bulk export worldwide.',
     images: [
       {
-        url: 'https://https://namaste-globals.vercel.app/card.png',
+        url: 'https://namaste-globals.vercel.app/card.png',
         width: 1200,
         height: 630,
         alt: 'Namaste Globals — Premium Natural Jaggery',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Namaste Globals | Premium Jaggery Exporter from India',
     description: 'Chemical-free, FSSAI certified jaggery from Maharashtra. Bulk export worldwide.',
-    images: ['https://https://namaste-globals.vercel.app/card.png'],
+    images: ['https://namaste-globals.vercel.app/card.png'],
     site: '@namasteglobals',
   },
 
