@@ -13,7 +13,7 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div style={{ display: 'flex', alignItems: 'center', gap: 10, marginBottom: '1rem' }}>
-              <PeacockLogo size={34} />
+              <PeacockLogo />
               <span className="gold-text" style={{ fontFamily: 'Cinzel, serif', fontSize: '0.92rem', fontWeight: 700 }}>Namaste Globals</span>
             </div>
             <p style={{ fontSize: '0.76rem', lineHeight: 1.8, color: '#836442', maxWidth: 210 }}>

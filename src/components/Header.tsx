@@ -45,7 +45,7 @@ export default function Header() {
       }}>
         {/* Logo */}
         <Link href="/" style={{ display: 'flex', alignItems: 'center', gap: 10, textDecoration: 'none', flexShrink: 0 }}>
-          <PeacockLogo size={40} />
+          <PeacockLogo />
           <div style={{ lineHeight: 1.15 }}>
             <div className="gold-text" style={{ fontFamily: 'Cinzel, serif', fontSize: '1rem', fontWeight: 700, letterSpacing: '0.04em' }}>
               Namaste Globals
