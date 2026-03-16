@@ -29,7 +29,7 @@ Ideal for tea, coffee, bakery products, confectionery, health foods, and beverag
 export const products: Product[] = [
   {
     id: 'Product 1',
-    src: '/images/jggery6.png',
+    src: '/images/natural_jaggery_gur.png',
     content: 'Natural Jaggery (Gur)',
     summary: 'Premium chemical-free jaggery made from fresh sugarcane juice using traditional methods. Rich in minerals, deep in flavor — the purest form of natural sweetness.',
     price: 64,
@@ -48,7 +48,7 @@ export const products: Product[] = [
   },
   {
     id: 'Product 2',
-    src: '/images/jggery6.png',
+    src: '/images/regular_jaggery_gur.png',
     content: 'Regular Jaggery (Gur)',
     summary: 'Classic jaggery made from sugarcane juice — a wholesome, everyday natural sweetener perfect for tea, sweets, and traditional cooking.',
     price: 50,
@@ -67,7 +67,7 @@ export const products: Product[] = [
   },
   {
     id: 'Product 3',
-    src: '/images/Jaggery-Powder.png',
+    src: '/images/natural_jaggery_powder.png',
     content: 'Natural Jaggery Powder',
     summary: 'Finely ground from premium natural jaggery — retains all minerals and nutrients. Easy to dissolve, ideal for tea, coffee, desserts, and health-conscious cooking.',
     price: 69,
@@ -86,7 +86,7 @@ export const products: Product[] = [
   },
   {
     id: 'Product 4',
-    src: '/images/Jaggery-Powder.png',
+    src: '/images/regular_jaggery_powder.png',
     content: 'Regular Jaggery Powder',
     summary: 'Convenient powdered jaggery for everyday use. Dissolves quickly in hot and cold drinks, great for traditional recipes, sweets, and snacks.',
     price: 53,
@@ -105,7 +105,7 @@ export const products: Product[] = [
   },
   {
     id: 'Product 5',
-    src: '/images/kakvi.avif',
+    src: '/images/natural_liquid_jaggery_kakvi.png',
     content: 'Natural Liquid Jaggery (Kakvi)',
     summary: 'Traditional liquid jaggery made from pure sugarcane juice. Rich, smooth, and deeply flavored — perfect for chapati, milk, or Ayurvedic preparations.',
     price: 130,
@@ -134,7 +134,7 @@ Used in traditional cooking, health preparations, Ayurvedic formulations, and as
   },
   {
     id: 'Product 6',
-    src: '/images/jggery6.png',
+    src: '/images/other_agro_products.png',
     content: 'Other Agro Products',
     summary: 'We are expanding our range of premium agro products. Stay tuned for new additions from the farms of Maharashtra — coming soon.',
     price: 0,
