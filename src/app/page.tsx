@@ -26,7 +26,7 @@ export default function HomePage() {
           background: 'rgba(22,22,34,0.7)', border: '1px solid var(--border)', borderRadius: 10,
           backdropFilter: 'blur(10px)',
         }}>
-          {[['15+', 'Years of Trade'], ['30+', 'Countries'], ['100%', 'Chemical-Free'], ['FSSAI', 'Certified']].map(([v, l]) => (
+          {[['FSSAI', 'Certified'], ['100%', 'Chemical-Free'], ['Premium', 'Quality'],].map(([v, l]) => (
             <div key={l} style={{ textAlign: 'center' }}>
               <div style={{ fontFamily: 'Cinzel, serif', fontSize: 'clamp(1.1rem, 3vw, 1.4rem)', fontWeight: 700, color: 'var(--gold)' }}>{v}</div>
               <div style={{ fontSize: '0.62rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#5a5248' }}>{l}</div>

@@ -41,7 +41,7 @@ export default function AboutPage() {
         <div style={{ textAlign: 'center', marginBottom: '2.5rem' }}>
           <p style={{ fontSize: '0.63rem', letterSpacing: '0.32em', textTransform: 'uppercase', color: 'var(--teal-light)', marginBottom: 10 }}>The People Behind It</p>
           <h2 style={{ fontFamily: 'Cormorant Garamond, serif', fontSize: 'clamp(1.8rem, 4vw, 2.8rem)', fontWeight: 600, color: 'var(--cream)' }}>
-            Patil Family
+            Namaste Globals Family
           </h2>
           <div style={{ width: 60, height: 1, background: 'linear-gradient(to right, transparent, var(--gold), transparent)', margin: '1.25rem auto 0' }} />
         </div>
@@ -56,9 +56,9 @@ export default function AboutPage() {
             },
             {
               emoji: '👨‍🌾',
-              name: 'Hrushikesh Patil',
+              name: 'Rushikesh Patil',
               role: 'Head of Operations & Sourcing',
-              bio: 'Hrushikesh oversees the entire supply chain — from farm to shipment. With hands-on knowledge of sugarcane cultivation and processing, he ensures every batch meets the highest standards of purity and consistency before it leaves the facility.',
+              bio: 'Rushikesh oversees the entire supply chain — from farm to shipment. With hands-on knowledge of sugarcane cultivation and processing, he ensures every batch meets the highest standards of purity and consistency before it leaves the facility.',
             },
             {
               emoji: '👨‍💻',
