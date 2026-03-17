@@ -97,7 +97,7 @@ function ContactForm() {
   const contacts = [
     { icon: <MapPin size={17} />, label: 'Address', value: 'R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa, Sangli, Maharashtra — 415403' },
     { icon: <Phone size={17} />, label: 'Phone', value: '+91 74994 18833' },
-    { icon: <Mail size={17} />, label: 'Email', value: 'info.namasteglobals@gmail.com' },
+    { icon: <Mail size={17} />, label: 'Email', value: 'namasteglobals@gmail.com' },
     { icon: <Clock size={17} />, label: 'Hours', value: 'Monday – Saturday, 9:00 AM – 6:00 PM IST' },
   ];
 

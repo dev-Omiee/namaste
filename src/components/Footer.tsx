@@ -61,10 +61,10 @@ export default function Footer() {
                 R-094-09, Tanaji Lakhmoji Patil Galli,<br />At Post Kameri, Taluka Walawa,<br />Sangli, Maharashtra — 415403
               </li>
               <li>
-                <a href="mailto:info.namasteglobals@gmail.com" style={{ fontSize: '0.74rem', color: '#836442', textDecoration: 'none' }}
+                <a href="mailto:namasteglobals@gmail.com" style={{ fontSize: '0.74rem', color: '#836442', textDecoration: 'none' }}
                   onMouseEnter={e => (e.currentTarget.style.color = 'var(--teal-light)')}
                   onMouseLeave={e => (e.currentTarget.style.color = '#836442')}
-                >info.namasteglobals@gmail.com</a>
+                >namasteglobals@gmail.com</a>
               </li>
               <li>
                 <a href="tel:+917499418833" style={{ fontSize: '0.74rem', color: '#836442', textDecoration: 'none' }}
