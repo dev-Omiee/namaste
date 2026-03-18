@@ -18,7 +18,7 @@ const faqs = [
     items: [
       { q: 'What is the shipping cost?', a: 'We offer free shipping on all orders above ₹1,000. For orders below ₹1,000, a flat shipping fee of ₹99 is applied.' },
       { q: 'How long does delivery take?', a: 'Orders are dispatched within 2–3 business days. Delivery typically takes 4–7 business days depending on your location within India. International shipping timelines vary.' },
-      { q: 'Do you ship internationally?', a: 'Yes. We export to 30+ countries. International orders are handled separately — please reach out via the Contact page for export inquiries and pricing.' },
+      { q: 'Do you ship internationally?', a: 'Yes. We export worldwide. International orders are handled separately — please reach out via the Contact page for export inquiries and pricing.' },
       { q: 'Can I track my order?', a: 'Yes. Once your order is dispatched, you will receive a tracking number via email. You can use this to track your shipment in real-time.' },
     ],
   },

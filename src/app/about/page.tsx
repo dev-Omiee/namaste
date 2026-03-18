@@ -19,7 +19,7 @@ export default function AboutPage() {
       {/* Values grid */}
       <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '1.25rem', marginBottom: '4rem' }}>
         {[
-          { icon: '🌏', title: 'Global Reach', text: 'Exporting to 30+ countries. Seamless cross-border trade with full documentation and compliance support.' },
+          { icon: '🌏', title: 'Global Reach', text: 'Exporting worldwide. Seamless cross-border trade with full documentation and compliance support.' },
           { icon: '🦚', title: 'Cultural Pride', text: 'Every product carries the soul of its Indian origin — crafted with generational wisdom and care.' },
           { icon: '⚖️', title: 'Certified Quality', text: 'FSSAI certified. Third-party lab tested. Every consignment meets international food safety standards.' },
           { icon: '🤝', title: 'Farmer First', text: '15+ years of direct partnerships with sugarcane farmers in Maharashtra — fair prices, fair trade.' },

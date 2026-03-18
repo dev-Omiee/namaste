@@ -81,7 +81,7 @@ export default function HomePage() {
               { icon: '🌿', title: 'Chemical-Free', text: 'No additives, no preservatives. Just pure traditional jaggery as nature intended.' },
               { icon: '🚜', title: 'Farm Direct', text: 'Sourced directly from farmers in Maharashtra, ensuring freshness and fair trade.' },
               { icon: '📦', title: 'Export Quality', text: 'Packaged to international standards — suitable for retail, wholesale, and bulk.' },
-              { icon: '🤝', title: 'Trade Partners', text: 'We work with importers, distributors, and retailers across 30+ countries worldwide.' },
+              { icon: '🤝', title: 'Trade Partners', text: 'We work with importers, distributors, and retailers ready to trade worldwide.' },
             ].map(c => (
               <div key={c.title} style={{
                 background: 'var(--dark3)', border: '1px solid var(--border)', borderRadius: 10,
