@@ -4,6 +4,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import ToastProvider from '@/components/ToastProvider';
 import WhatsAppButton from '@/components/WhatsAppButton';
+import StructuredData from '@/components/StructuredData';
 
 export const metadata: Metadata = {
   title: 'Namaste Globals | Premium Jaggery Exporter from India',
@@ -60,6 +61,9 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <head>
+        <StructuredData />
+      </head>
       <body>
         <ToastProvider />
         <div className="flex flex-col min-h-screen site-bg">
