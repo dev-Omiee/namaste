@@ -96,7 +96,7 @@ export default function CertificationsClient() {
                   onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'rgba(42,181,160,0.05)')}
                 >
                   <Eye size={12} /> 
-                  {/* View */}
+                  View
                 </a>
                 <a
                   href={file}
