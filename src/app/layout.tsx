@@ -7,6 +7,9 @@ import WhatsAppButton from '@/components/WhatsAppButton';
 import StructuredData from '@/components/StructuredData';
 
 export const metadata: Metadata = {
+  verification: {
+    google: 'm0PHCb7CDlh20bCAyizt54BBTn7zSgIbkqAk2qLqGtQ',
+  },
   title: 'Namaste Globals | Premium Jaggery Exporter from India',
   description: 'Export-quality natural jaggery, jaggery powder and liquid jaggery sourced directly from sugarcane farms in Maharashtra. Chemical-free, FSSAI certified, exported worldwide.',
   keywords: 'jaggery exporter India, natural jaggery wholesale, gur export, jaggery powder bulk, liquid jaggery kakvi, Maharashtra jaggery, chemical free jaggery, FSSAI certified jaggery, buy jaggery bulk, Indian agro export',
