@@ -11,8 +11,8 @@ export const metadata: Metadata = {
     google: 'm0PHCb7CDlh20bCAyizt54BBTn7zSgIbkqAk2qLqGtQ',
   },
   title: 'Namaste Globals | Premium Jaggery Exporter from India',
-  description: 'Export-quality natural jaggery, jaggery powder and liquid jaggery sourced directly from sugarcane farms in Maharashtra. Chemical-free, FSSAI certified, exported worldwide.',
-  keywords: 'jaggery exporter India, natural jaggery wholesale, gur export, jaggery powder bulk, liquid jaggery kakvi, Maharashtra jaggery, chemical free jaggery, FSSAI certified jaggery, buy jaggery bulk, Indian agro export',
+  description: 'Export-quality natural jaggery, jaggery powder and liquid jaggery sourced directly from sugarcane farms in Maharashtra. Fresh & natural, FSSAI certified, exported worldwide.',
+  keywords: 'jaggery exporter India, natural jaggery wholesale, gur export, jaggery powder bulk, liquid jaggery kakvi, Maharashtra jaggery, Fresh & natural jaggery, FSSAI certified jaggery, buy jaggery bulk, Indian agro export',
   authors: [{ name: 'Namaste Globals' }],
   viewport: 'width=device-width, initial-scale=1.0',
 
@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     url: 'https://www.namasteglobals.com',
     type: 'website',
     title: 'Namaste Globals | Premium Jaggery Exporter from India',
-    description: 'Chemical-free, FSSAI certified jaggery from Maharashtra. Natural jaggery blocks, powder and liquid jaggery — bulk export worldwide.',
+    description: 'Fresh & natural, FSSAI certified jaggery from Maharashtra. Natural jaggery blocks, powder and liquid jaggery — bulk export worldwide.',
     images: [
       {
         url: '/favicon.ico',
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
     title: 'Namaste Globals | Premium Jaggery Exporter from India',
-    description: 'Chemical-free, FSSAI certified jaggery from Maharashtra. Bulk export worldwide.',
+    description: 'Fresh & natural, FSSAI certified jaggery from Maharashtra. Bulk export worldwide.',
     images: ['/favicon.ico'],
     site: '@namasteglobals',
   },

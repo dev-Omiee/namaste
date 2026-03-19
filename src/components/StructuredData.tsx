@@ -5,7 +5,7 @@ export default function StructuredData() {
     name: 'Namaste Globals',
     url: 'https://www.namasteglobals.com',
     logo: 'https://www.namasteglobals.com/favicon.ico',
-    description: 'Premium natural jaggery exporter from Maharashtra, India. Chemical-free, FSSAI certified.',
+    description: 'Premium natural jaggery exporter from Maharashtra, India. Fresh & natural, FSSAI certified.',
     address: {
       '@type': 'PostalAddress',
       streetAddress: 'R-094-09, Tanaji Lakhmoji Patil Galli, At Post Kameri, Taluka Walawa',

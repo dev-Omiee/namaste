@@ -206,7 +206,7 @@ export default function ProductModal({ product, onClose }: Props) {
                 ))}
               </ul>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: 5, marginTop: '1rem' }}>
-                {['Chemical-Free', 'Farm Direct', 'Export Quality', 'FSSAI Certified'].map(tag => (
+                {['Fresh & natural', 'Farm Direct', 'Export Quality', 'FSSAI Certified'].map(tag => (
                   <span key={tag} style={{
                     fontSize: '0.55rem', letterSpacing: '0.1em', textTransform: 'uppercase',
                     padding: '3px 8px', borderRadius: 3,

@@ -16,7 +16,7 @@ export default function HomePage() {
           <span className="gold-shimmer">Namaste Globals</span>
         </h1>
         <p className="animate-fade-up anim-d2" style={{ fontSize: 'clamp(0.85rem, 2.5vw, 1rem)', fontWeight: 300, color: '#7a6e60', maxWidth: 480, margin: '0 auto 2.5rem', lineHeight: 1.85 }}>
-          Premium natural jaggery sourced directly from sugarcane farms across Maharashtra — chemical-free, mineral-rich, exported worldwide.
+          Premium natural jaggery sourced directly from sugarcane farms across Maharashtra — Fresh & natural, mineral-rich, exported worldwide.
         </p>
 
         {/* Stats bar */}
@@ -26,7 +26,7 @@ export default function HomePage() {
           background: 'rgba(22,22,34,0.7)', border: '1px solid var(--border)', borderRadius: 10,
           backdropFilter: 'blur(10px)',
         }}>
-          {[['FSSAI', 'Certified'], ['100%', 'Chemical-Free'], ['Premium', 'Quality'],].map(([v, l]) => (
+          {[['FSSAI', 'Certified'], ['100%', 'Fresh & natural'], ['Premium', 'Quality'],].map(([v, l]) => (
             <div key={l} style={{ textAlign: 'center' }}>
               <div style={{ fontFamily: 'Cinzel, serif', fontSize: 'clamp(1.1rem, 3vw, 1.4rem)', fontWeight: 700, color: 'var(--gold)' }}>{v}</div>
               <div style={{ fontSize: '0.62rem', letterSpacing: '0.15em', textTransform: 'uppercase', color: '#5a5248' }}>{l}</div>
@@ -78,7 +78,7 @@ export default function HomePage() {
           </div>
           <div className="features-grid">
             {[
-              { icon: '🌿', title: 'Chemical-Free', text: 'No additives, no preservatives. Just pure traditional jaggery as nature intended.' },
+              { icon: '🌿', title: 'Fresh & natural', text: 'No additives, no preservatives. Just pure traditional jaggery as nature intended.' },
               { icon: '🚜', title: 'Farm Direct', text: 'Sourced directly from farmers in Maharashtra, ensuring freshness and fair trade.' },
               { icon: '📦', title: 'Export Quality', text: 'Packaged to international standards — suitable for retail, wholesale, and bulk.' },
               { icon: '🤝', title: 'Trade Partners', text: 'We work with importers, distributors, and retailers ready to trade worldwide.' },

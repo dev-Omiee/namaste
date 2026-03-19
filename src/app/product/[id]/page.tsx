@@ -74,7 +74,7 @@ export default function ProductPage({ params }: { params: { id: string } }) {
 
           {/* Tags */}
           <div style={{ display: 'flex', flexWrap: 'wrap', gap: 8, marginBottom: '1.75rem' }}>
-            {['Chemical-Free', 'Farm Direct', 'FSSAI Certified', 'Export Quality'].map(tag => (
+            {['Fresh & natural', 'Farm Direct', 'FSSAI Certified', 'Export Quality'].map(tag => (
               <span key={tag} style={{
                 fontSize: '0.6rem', letterSpacing: '0.12em', textTransform: 'uppercase',
                 padding: '5px 12px', borderRadius: 3,

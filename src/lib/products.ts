@@ -4,7 +4,7 @@ const sharedLongDescription = `Jaggery is a traditional unrefined natural sweete
 
 Product Features: 100% Natural Cane Jaggery · Chemical Free Processing · No Artificial Colors · No Sulphur Treatment · Rich in Natural Minerals · Hygienically Processed · Export Quality Standards.
 
-Chemical Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
+Fresh & natural Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
 
 Nutritional Value: Jaggery naturally contains essential minerals including Iron, Calcium, Magnesium, and Potassium — making it a more nutritious alternative to refined sugar.
 
@@ -12,11 +12,11 @@ Product Specifications: Color — Golden Brown to Dark Brown · Taste — Natura
 
 Jaggery is widely used in the food industry, beverage manufacturing, bakery products, confectionery, and health foods across global markets.`;
 
-const powderLongDescription = `Jaggery Powder is stone-ground from premium natural jaggery blocks, preserving all trace minerals and antioxidants. Produced from fresh sugarcane juice using a traditional and hygienic process — chemical-free, no artificial colors, no sulphur treatment.
+const powderLongDescription = `Jaggery Powder is stone-ground from premium natural jaggery blocks, preserving all trace minerals and antioxidants. Produced from fresh sugarcane juice using a traditional and hygienic process — Fresh & natural, no artificial colors, no sulphur treatment.
 
-Product Features: 100% Natural Cane Jaggery · Chemical Free Processing · No Artificial Colors · No Sulphur Treatment · Instant Dissolving · Export Quality Standards.
+Product Features: 100% Natural Cane Jaggery · Fresh & natural Processing · No Artificial Colors · No Sulphur Treatment · Instant Dissolving · Export Quality Standards.
 
-Chemical Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
+Fresh & natural Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
 
 Moisture Content: Jaggery Powder — 5% to 8%. Low moisture content helps prevent fungal growth and increases shelf life during storage and transportation.
 
@@ -31,13 +31,13 @@ export const products: Product[] = [
     id: 'Product 1',
     src: '/images/natural_jaggery_gur.png',
     content: 'Natural Jaggery (Gur)',
-    summary: 'Premium chemical-free jaggery made from fresh sugarcane juice using traditional methods. Rich in minerals, deep in flavor — the purest form of natural sweetness.',
+    summary: 'Premium Fresh & natural jaggery made from fresh sugarcane juice using traditional methods. Rich in minerals, deep in flavor — the purest form of natural sweetness.',
     price: 64,
     priceLabel: 'Rs 64/kg',
     category: 'Solid Jaggery',
     hsCode: 'HS CODE : 17011410',
     emoji: '🟫',
-    benefits: ['Rich in iron and minerals', 'Chemical-free and unrefined', 'Natural energy booster', 'Boosts immunity with antioxidants'],
+    benefits: ['Rich in iron and minerals', 'Fresh & natural and unrefined', 'Natural energy booster', 'Boosts immunity with antioxidants'],
     unit: 'per kg',
     longDescription: `Our Natural Jaggery is crafted using time-honored methods passed down through generations. Sourced directly from sugarcane farms in Maharashtra, every block is slow-boiled in iron vessels to preserve its natural golden color and rich mineral content.\n\n${sharedLongDescription}\n\nMoisture Content (Block): 6% to 10%.`,
     origin: 'Maharashtra, India',
@@ -58,7 +58,7 @@ export const products: Product[] = [
     emoji: '🟫',
     benefits: ['Natural sweetener', 'Good source of iron and calcium', 'Supports digestion', 'Affordable daily-use sweetener'],
     unit: 'per kg',
-    longDescription: `Our Regular Jaggery offers the familiar taste and goodness of traditional Indian jaggery at an accessible price. Made from fresh sugarcane juice and processed without harmful chemicals — ideal for everyday use in households, tea stalls, and food businesses.\n\n${sharedLongDescription}\n\nMoisture Content (Block): 6% to 10%.`,
+    longDescription: `Our Regular Jaggery offers the familiar taste and goodness of traditional Indian jaggery at an accessible price. Made from fresh sugarcane juice and processed without harmful Fresh & naturals — ideal for everyday use in households, tea stalls, and food businesses.\n\n${sharedLongDescription}\n\nMoisture Content (Block): 6% to 10%.`,
     origin: 'Maharashtra, India',
     weight: '1 kg',
     shelfLife: '9 to 12 months',
@@ -117,9 +117,9 @@ export const products: Product[] = [
     unit: 'per liter',
     longDescription: `Natural Liquid Jaggery, known locally as Kakvi, is the rich amber nectar extracted during the natural jaggery-making process. With its deep molasses-like sweetness and dense mineral content, it is a prized ingredient in traditional Indian households and Ayurvedic kitchens.
 
-Produced from fresh sugarcane juice using a chemical-free, traditional process — no artificial colors, no sulphur treatment, no preservatives.
+Produced from fresh sugarcane juice using a Fresh & natural, traditional process — no artificial colors, no sulphur treatment, no preservatives.
 
-Chemical Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
+Fresh & natural Composition: Sucrose 65–85% · Reducing Sugars 10–25% · Total Carbohydrates 85–95% · Protein 0.5–1% · Energy approx. 370–390 kcal/100g.
 
 Nutritional Value: Naturally contains Iron, Calcium, Magnesium, and Potassium. Higher mineral concentration than solid jaggery forms due to retained molasses content.
 
