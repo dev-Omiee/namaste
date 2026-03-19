@@ -95,7 +95,8 @@ export default function CertificationsClient() {
                   onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = 'rgba(42,181,160,0.12)')}
                   onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'rgba(42,181,160,0.05)')}
                 >
-                  <Eye size={12} /> View
+                  <Eye size={12} /> 
+                  {/* View */}
                 </a>
                 <a
                   href={file}
@@ -112,7 +113,8 @@ export default function CertificationsClient() {
                   onMouseEnter={e => ((e.currentTarget as HTMLElement).style.background = 'rgba(201,168,76,0.12)')}
                   onMouseLeave={e => ((e.currentTarget as HTMLElement).style.background = 'rgba(201,168,76,0.05)')}
                 >
-                  <Download size={12} /> Download
+                  <Download size={12} /> 
+                  {/* Download */}
                 </a>
               </div>
             </div>
